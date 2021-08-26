@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idealgewicht</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form action="" onsubmit="return false">
+    <h1>Idealgewicht</h1>
+    <div>
+        <label for="größe">Größe</label><br>
+        <input type="number" name="größe" id="größe" placeholder="in cm">
+    </div>
+    <div>
+        <label for="alter">Alter</label><br>
+        <input type="number" name="alter" id="alter" placeholder="in Jahren">
+    </div>
+    
+    <div id="genre">
+        <h4>Körpertyp</h4>
+        <input type="radio" name="genre" id="breit">
+        <label for="breit">breit</label><br>
+        <input type="radio" name="genre" id="schmal">
+        <label for="schmal">schmal</label>
+    </div>
+    <div id="button">
+        <input type="submit" value="Submit" onclick="rechnen()">
+    </div>
+    <div>
+        <p id="result"></p>
+    </div>
+    </form>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
